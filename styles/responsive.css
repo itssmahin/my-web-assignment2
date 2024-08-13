@@ -40,11 +40,30 @@
         
         ;
         
-       margin-top: 12px; 
-       width: 60%;
-       margin: 0 auto;
       
+       width: 80%;
+       max-width: 50px 0 auto
+       ;
+    }
+ 
+
+    .run-section-main{
+
+        flex-direction: column;
+        width: 60%;
     }
 
+    .run-section-lef{
+
+        width: 80%;
+    }
+
+    .run-section-right{
+
+        width: 80%;
+    }
+
+
+   
     
 }

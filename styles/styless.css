@@ -124,7 +124,7 @@ margin-bottom: 5px;
 
     width: 340px;
     height: 300px ;
-     margin-left: 250px;
+    margin-left: 250px;
      
    
 }
@@ -231,4 +231,64 @@ margin-bottom: 5px;
 
     grid-area: d;
 
+}
+
+/* run section styles starts here  */
+
+.run-section-main {
+
+ 
+   display: flex;
+   max-width: 1000px;
+   margin: 0 auto;
+   justify-content: space-between;
+   align-items: center;
+   background: rgb(34, 34, 34);
+   margin-top: 10px;
+   border-radius: 10px;
+}
+
+.run-section-left{
+
+    font-size: 48px;
+    color: white;
+   
+
+}
+
+
+
+.run-section-lef,h3, p, button {
+
+    margin-left: 40px;
+}
+
+.run-section-lef,p{
+
+    font-size: 13px;
+    color: #FFFFFF80;
+}
+
+.run-section-lef,button{
+
+    padding: 12px 25px 12px 25px;
+    border-radius: 42px;
+
+     background: rgb(230, 83, 60);
+     margin-bottom: 5px;
+
+}
+
+
+
+.run-section-right{
+
+  width: 50%;
+
+}
+
+.run-section-right img {
+
+    width: 100%;
+    border-radius: 18px;
 }
