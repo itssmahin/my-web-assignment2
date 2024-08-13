@@ -21,5 +21,30 @@
         margin-left: -28px;
         margin-top: 19px;
     }
+
+    .habit-main {
+
+
+        grid-template-areas: 
+        
+        "a"
+        
+        "b"
+        
+        "c"
+        
+        "d"
+        
+        
+        
+        
+        ;
+        
+       margin-top: 12px; 
+       width: 60%;
+       margin: 0 auto;
+      
+    }
+
     
 }

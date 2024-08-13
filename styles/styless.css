@@ -148,3 +148,87 @@ margin-bottom: 5px;
     color: white;
 
 }
+
+
+/* habit styles section starts here  */
+
+.habit-section-txt {
+
+   justify-content: center;
+   text-align: center;
+}
+
+.habit-section-txt, h1{
+    
+    font-size: 46px;
+    color: white;
+}
+
+.habit-section-txt,p {
+
+    font-size: 12px;
+    color: #FFFFFF80;
+}
+
+
+.habit-main {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+ 
+ grid-template-areas: 
+ 
+ "a b c d"
+ ;
+
+ gap: 15px;
+ 
+ margin-top: 12px;
+
+}
+
+.habit-main, h6{
+
+    font-size: 14px;
+    color: white;
+  
+}
+
+.habit-card{
+
+
+
+}
+
+.habit-card img {
+
+    border-radius: 90px;
+}
+
+
+
+.card-1{
+
+    grid-area: a;
+}
+
+
+.card-2{
+ 
+    grid-area: b;
+
+}
+
+
+.card-3{
+
+    grid-area: c;
+
+}
+
+
+.card-4{
+
+    grid-area: d;
+
+}
