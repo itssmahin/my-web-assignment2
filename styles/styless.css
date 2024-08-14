@@ -234,18 +234,19 @@ margin-bottom: 5px;
 }
 
 /* run section styles starts here  */
-
-.run-section-main {
+  
+ .run-section-main {
 
  
    display: flex;
-   max-width: 1000px;
-   margin: 0 auto;
+    max-width: 1000px;
+   margin: 0 auto; 
    justify-content: space-between;
    align-items: center;
    background: rgb(34, 34, 34);
    margin-top: 10px;
    border-radius: 10px;
+   gap: 20px;
 }
 
 .run-section-left{
@@ -258,15 +259,16 @@ margin-bottom: 5px;
 
 
 
-.run-section-lef,h3, p, button {
+/* .run-section-left,h3,p,button {
 
-    margin-left: 40px;
-}
+  
+}  */
 
 .run-section-lef,p{
 
     font-size: 13px;
     color: #FFFFFF80;
+    
 }
 
 .run-section-lef,button{
@@ -276,11 +278,12 @@ margin-bottom: 5px;
 
      background: rgb(230, 83, 60);
      margin-bottom: 5px;
+     gap: 20px;
 
 }
 
 
-
+ 
 .run-section-right{
 
   width: 50%;
@@ -289,6 +292,168 @@ margin-bottom: 5px;
 
 .run-section-right img {
 
-    width: 100%;
-    border-radius: 18px;
+    width: 50%;
+    border-radius: 15px;
+}    
+
+
+
+
+
+/* meet our section styles starts here  */
+
+ .meet-main-txt {
+
+    
+ margin-top: 10px;
+ 
+
 }
+
+
+.meet-main-left {
+  
+    
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.meet-main-left,h2{
+
+    color: white;
+    font-size: 46px;;
+}
+
+.meet-main-left,p{
+
+    font-size: 12px;
+    color: #FFFFFF80;
+}
+
+
+
+
+.meet-main-section {
+
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ 
+    /* grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr); */
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+
+.team-section-cards h6{
+
+    font-size: 1.3rem;
+    display: inline;
+}
+
+.team-section-cards p {
+
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 14px;
+    font-weight: 400;
+    display: inline;
+}
+
+
+
+.meet-card-1{
+
+    background-image: url("../images/trainer1.png");
+    /* grid-column: span 4;
+    grid-row: span 6; */
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    width: 330.67px;
+    height: 272px;
+    margin-left: 20%;
+
+}
+.meet-card-2{
+
+    background-image: url("../images/trainer2.png");
+    /* grid-column: span 4;
+    grid-row: span 6; */
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    width: 330.67px;
+    height: 272px;
+    margin-left: 20%;
+
+}
+.meet-card-3{
+
+    background-image: url("../images/trainer3.png");
+    /* grid-column: span 4;
+    grid-row: span 6; */
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    width: 330.67px;
+    height: 272px;
+    margin-left: 20%;
+
+}
+.meet-card-4{
+
+    background-image: url("../images/trainer4.png");
+    /* grid-column: span 4;
+    grid-row: span 6; */
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    width: 330.67px;
+    height: 272px;
+    margin-left: 20%;
+
+}
+.meet-card-5{
+
+    background-image: url("../images/trainer5.png");
+    /* grid-column: span 4;
+    grid-row: span 6; */
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    width: 330.67px;
+    height: 272px;
+    margin-left: 20%;
+
+}
+.meet-card-6{
+
+    background-image: url("../images/trainer6.png");
+    /* grid-column: span 4;
+    grid-row: span 6; */
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    width: 330.67px;
+    height: 272px;
+    margin-left: 20%;
+
+}
+.trainer-details{
+
+    position: relative ;
+    left: 10%;
+    top: 80%;
+}
+
+
+

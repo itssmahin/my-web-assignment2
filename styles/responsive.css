@@ -1,4 +1,4 @@
-@media screen and (max-width : 576px){
+ @media screen and (max-width : 576px){
 
     .nav-main{
 
@@ -18,7 +18,7 @@
     }
     .header-main img{
 
-        margin-left: -28px;
+        margin-left: 28px;
         margin-top: 19px;
     }
 
@@ -35,35 +35,35 @@
         
         "d"
         
-        
-        
-        
         ;
-        
-      
-       width: 80%;
-       max-width: 50px 0 auto
-       ;
+
+        width: 50%;
+        margin: 0 auto;
     }
  
 
     .run-section-main{
 
         flex-direction: column;
-        width: 60%;
+        width: 50%;
     }
 
     .run-section-lef{
 
-        width: 80%;
+        width: 50%;
     }
 
-    .run-section-right{
+    .run-section-right {
 
-        width: 80%;
+        width: 100%;
+    }
+
+    .meet-main-section{
+
+        grid-template-columns: 1fr;
     }
 
 
    
     
-}
+} 
