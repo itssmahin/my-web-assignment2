@@ -63,7 +63,41 @@
         grid-template-columns: 1fr;
     }
 
+    .fitness-content{
 
+        width: 95%;
+        flex-direction: column;
+        margin-top: 10px;
+
+    }
+    
+    .fitness-first-section,
+   .fitness-second-section {
+
+    width: 100%;
+   }
+
+
+    .fitness-first-section,
+    .fitness-second-section
+    {
+     
+        flex-direction: column;
+        
+
+   }
+
+ 
+   
+
+   .right-reserved-section{
+
+    flex-direction: column;
+   }
+
+ 
+
+}
    
     
-} 
+    

@@ -456,4 +456,81 @@ margin-bottom: 5px;
 }
 
 
+/* footer section styles starts here  */
+
+
+
+
+.fitness-mains {
+
+
+  width: 100%;
+  height: 27.120rem;
+  background: rgba(255, 255, 255, 0.1); 
+  margin-top: 30px;
+
+
+
+}
+
+
+.fitness-content {
+
+ width: 100%;
+ height: 100%;
+
+
+
+}
+
+.fitness-content{
+
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fitness-first-section,.fitness-second-section{
+
+
+    width: 45%;
+
+}
+
+
+.fitness-second-section{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 5.2rem;
+
+
+}
+
+
+.fitness-second-section h3 {
+
+    color: rgb(255, 255, 255);
+   font-size: 30px;
+
+}
+
+.fitness-second-section P {
+
+    color: rgba(255, 255, 255, 0.5);
+  
+    font-size: 20px;
+
+
+}
+
+   
+
+ 
+
 
